@@ -1,4 +1,5 @@
 package candidatura;
+<<<<<<< HEAD
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
@@ -31,6 +32,14 @@ public class ProcessoSeletivo {
     }
     static double valorPretendido(){
         return ThreadLocalRandom.current().nextDouble(1800, 2200);
+=======
+
+public class ProcessoSeletivo {
+    public static void main(String[] args) throws Exception {
+       analisarCandidato(1900.0);
+       analisarCandidato(2200.0);
+       analisarCandidato(2000.0);
+>>>>>>> 702abc3f71343994e1e6838df8e5620172bacc32
     }
 
     static void analisarCandidato(double salarioPretendido) {
